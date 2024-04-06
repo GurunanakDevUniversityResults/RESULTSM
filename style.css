@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navcontent {
+    background-color: #10243E;
+    height: 30vh;
+    width: 100vw;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+#logogndu {
+    filter: contrast(1.5) saturate(1);
+    /* width: 25vw; */
+    display: block;
+    margin: auto;
+    /* height: 10vh; */
+}
+
+.navcontent p {
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.nav1 {
+    margin:  3vh auto;
+    /* background-color: chocolate; */
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+}
+
+.nav1 .ul1 {
+
+    background-color: #616161;
+    width: 44vw;
+    height: 4vh;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.nav1 .ul1 li {
+    /* background-color: black; */
+    width: 10vw;
+    padding: 7px;
+    text-align: center;
+}
+
+.nav1 .ul2 {
+
+    background-color: #616161;
+    width: 44vw;
+    height: 4vh;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+}
+
+.nav1 .ul2 li {
+    /* background-color: black; */
+    width: 15vw;
+    padding: 7px;
+    text-align: center;
+}
+
+
+.rank {
+
+    height: 7vh;
+    background-color: #020407;
+    align-content: center;
+    margin: 1vh 0px;
+}
+
+.rank p {
+    color: white;
+    font-weight: bold;
+    margin: 7px auto;
+    font-size: 20px;
+    text-align: center;
+    width: 60vw;
+    text-overflow: ellipsis;
+
+
+}

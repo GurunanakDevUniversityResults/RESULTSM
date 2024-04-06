@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college admissions</title>
+          <link rel="icon" href="favicon.png"
+          type="image/png">
+</head>
+
+<body>
+    <table border="1" width="800">
+        <tbody>
+            <tr>
+                <td align="center" valign="top" colspan="4">
+                    <img src="gndulogo2.jpg" width="750" height="100" border="1">
+
+
+                </td>
+            </tr>
+            <tr>
+
+                <td align="center" valign="top">
+                    Year:
+                    <select name="DrpDwnYear" onchange="javascript:setTimeout('__doPostBack(\'DrpDwnYear\',\'\')', 0)"
+                        id="DrpDwnYear" style="height:25px;width:50px;">
+                        <option selected="selected" value="">Year</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+
+                    </select>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Month:
+                    <select name="DrpDwnMonth" onchange="javascript:setTimeout('__doPostBack(\'DrpDwnMonth\',\'\')', 0)"
+                        id="DrpDwnMonth" style="height:25px;width:50px;">
+                        <option selected="selected" value="">Month</option>
+                        <option value="12">Dec.</option>
+                        <option value="5">May.</option>
+
+                    </select>&nbsp;-
+
+                    <br><br>
+                    Select Course Type:
+                    <select name="DropDownCourseType"
+                        onchange="javascript:setTimeout('__doPostBack(\'DropDownCourseType\',\'\')', 0)"
+                        id="DropDownCourseType" style="height:25px;width:300px;">
+                        <option selected="selected" value="">Course Type</option>
+                        <option value="P">Pass Course</option>
+                        <option value="C">CBES (New)</option>
+
+                    </select>
+                    <br><br>
+                    Select Course :
+                    <select name="DrpDwnCMaster"
+                        onchange="javascript:setTimeout('__doPostBack(\'DrpDwnCMaster\',\'\')', 0)" id="DrpDwnCMaster"
+                        style="height:25px;width:300px;">
+                        <option value="">--Select Class--</option>
+                        <option value="4040">Advance Diploma Course in French (Part Time)</option>
+                        <option value="4039">Advance Diploma Course in German (Part Time)</option>
+                        <option value="1093">B. A. (Women Empowerment)</option>
+                        <option value="1110">B. Com. LL. B. (FIVE YEARS INTEGRATED COURSE)</option>
+                        <option value="1121">B. Design (Multimedia)</option>
+                        <option value="1080">B.A. (HONOURS)</option>
+                        <option value="1127">B.A. B.Ed. (Four Year Integrated Course)</option>
+                        <option value="1087">B.A. Journalism &amp; Mass Communication</option>
+                        <option value="1124">B.A. LL.B (FIVE YEARS INTEGRATED COURSE)</option>
+                        <option value="1045">B.A. Social Studies</option>
+                        <option value="1128">B.Ed-M.Ed (Three Year Integrated Course)</option>
+                        <option value="1057">B.SC. (Information Technology)</option>
+                        <option value="1129">B.Sc. B.Ed. (Four Year Integrated Course)</option>
+                        <option value="1120">B.Sc. in Internet &amp; Mobile Technologies</option>
+                        <option value="1032">Bachelor of Arts</option>
+                        <option value="1054">Bachelor of Business Administration</option>
+                        <option value="1904">Bachelor Of Commerce</option>
+                        <option selected="selected" value="1085">Bachelor of Commerce</option>
+                        <option value="1153">Bachelor of Commerce (Financial Services)</option>
+                        <option value="1091">Bachelor of Commerce (Hons.)</option>
+                        <option value="1073">Bachelor of Commerce (Professional)</option>
+                        <option value="1072">Bachelor of Computer Applications</option>
+                        <option value="1903">Bachelor Of Computer Applications</option>
+                        <option value="1060">Bachelor of Design</option>
+                        <option value="1108">BACHELOR OF EDUCATION</option>
+                        <option value="1081">BACHELOR OF FINE ARTS</option>
+                        <option value="1077">Bachelor of Food Science &amp; Technology (Hons.)</option>
+                        <option value="1063">Bachelor of Laws</option>
+                        <option value="1901">Bachelor Of Library &amp; Information Science</option>
+                        <option value="1064">Bachelor of Library &amp; Information Science</option>
+                        <option value="1033">Bachelor of Science</option>
+                        <option value="1074">Bachelor of Science (Bio-Technology)</option>
+                        <option value="1086">Bachelor of Science (Fashion Designing)</option>
+                        <option value="1082">Bachelor of Science (Home Science)</option>
+                        <option value="1068">Bachelor of Tourism and Hotel Management</option>
+                        <option value="1095">Bachelor of Vocation (Automobile Technology)</option>
+                        <option value="1101">Bachelor of Vocation (Banking &amp; Financial Services)</option>
+                        <option value="1137">Bachelor of Vocation (Beauty &amp; Fitness)</option>
+                        <option value="1138">Bachelor of Vocation (Beauty &amp; Wellness)</option>
+                        <option value="1159">Bachelor of Vocation (Beauty Culture &amp; Cosmetology)</option>
+                        <option value="1111">Bachelor of Vocation (Contemporary Forms of Dance)</option>
+                        <option value="1135">Bachelor of Vocation (Cosmetology &amp; Wellness)</option>
+                        <option value="1140">Bachelor of Vocation (Data Science)</option>
+                        <option value="1113">Bachelor of Vocation (E-Commerce &amp; Digital Marketing)</option>
+                        <option value="1098">Bachelor of Vocation (Entertainment Technology)</option>
+                        <option value="1149">Bachelor of Vocation (Fashion Designing and Product)</option>
+                        <option value="1144">Bachelor of Vocation (Fashion Designing)</option>
+                        <option value="1097">Bachelor of Vocation (Fashion Styling And Grooming)</option>
+                        <option value="1106">Bachelor of Vocation (Fashion Technology)</option>
+                        <option value="1107">Bachelor of Vocation (Financial Market Management)</option>
+                        <option value="1141">Bachelor of Vocation (Health Care Management)</option>
+                        <option value="1134">Bachelor of Vocation (Journalism and Media)</option>
+                        <option value="1136">Bachelor of Vocation (Mental Health Counselling)</option>
+                        <option value="1105">Bachelor of Vocation (Modern Office Practice)</option>
+                        <option value="1142">Bachelor of Vocation (Nutrition &amp; Diet Planning)</option>
+                        <option value="1109">Bachelor of Vocation (Nutrition &amp; Dietetics)</option>
+                        <option value="1117">Bachelor of Vocation (Photography &amp; Journalism)</option>
+                        <option value="1102">Bachelor of Vocation (Printing Technology)</option>
+                        <option value="1143">Bachelor of Vocation (Product Design Management and Entrepreneurship)
+                        </option>
+                        <option value="1096">Bachelor of Vocation (Retail Management &amp; I.T.)</option>
+                        <option value="1118">Bachelor of Vocation (Retail Management)</option>
+                        <option value="1103">Bachelor of Vocation (Software Development)</option>
+                        <option value="1104">Bachelor of Vocation (Sound Technology)</option>
+                        <option value="1099">Bachelor of Vocation (Theatre &amp; Stage Craft)</option>
+                        <option value="1100">Bachelor of Vocation (Web Technology &amp; Multimedia)</option>
+                        <option value="1150">Bachelor of Vocation Web Designing and Development (IT)</option>
+                        <option value="1123">BBA LL.B. (FIVE YEARS INTEGRATED COURSE)</option>
+                        <option value="5010">Certificate Course in Arabic (Part Time)</option>
+                        <option value="5023">Certificate Course in Chinese (Part Time)</option>
+                        <option value="5017">CERTIFICATE COURSE IN EARLY CHILDHOOD CARE &amp; EDUCATION</option>
+                        <option value="5011">Certificate Course in French (Part Time)</option>
+                        <option value="5012">Certificate Course in German (Part Time)</option>
+                        <option value="5013">Certificate Course in Persian (Part Time)</option>
+                        <option value="5015">Certificate Course in Urdu (Part Time)</option>
+                        <option value="4044">Diploma Course in Computer Applications (Full Time)</option>
+                        <option value="4031">Diploma Course in Computer Maintenance (Full Time)</option>
+                        <option value="4032">Diploma Course in French (Full Time)</option>
+                        <option value="4033">Diploma Course in French (Part Time)</option>
+                        <option value="4034">Diploma Course in German (Part Time)</option>
+                        <option value="4076">Diploma Course in Medical Laboratory Technology</option>
+                        <option value="4037">DIPLOMA COURSE IN RUSSIAN (PART TIME)</option>
+                        <option value="4052">DIPLOMA IN COMPUTER ANIMATION</option>
+                        <option value="4902">Diploma in Computer Applications</option>
+                        <option value="4048">Diploma in Cosmetology (Full Time)</option>
+                        <option value="4030">DIPLOMA IN COUNSELLING</option>
+                        <option value="4046">DIPLOMA IN FOOD PRODUCTION</option>
+                        <option value="4029">Diploma in Library Science</option>
+                        <option value="4066">Diploma in Nanny Care &amp; Nutrition</option>
+                        <option value="4063">Diploma in Professional Accountancy</option>
+                        <option value="4047">Diploma in Stitching &amp; Tailoring (Full Time)</option>
+                        <option value="4074">Diploma in Web Designing</option>
+                        <option value="1062">LL.B. (Three Years Course)</option>
+                        <option value="2184">M. DESIGN (MULTIMEDIA)</option>
+                        <option value="2153">M.A. DANCE</option>
+                        <option value="2131">M.A. ECONOMICS</option>
+                        <option value="2164">M.A. ENGLISH</option>
+                        <option value="2159">M.A. FINE ARTS</option>
+                        <option value="2161">M.A. FRENCH</option>
+                        <option value="2156">M.A. GEOGRAPHY</option>
+                        <option value="2163">M.A. HINDI</option>
+                        <option value="2089">M.A. HISTORY</option>
+                        <option value="2178">M.A. Journalism &amp; Mass Communication</option>
+                        <option value="2148">M.A. MUSIC INSTRUMENTAL</option>
+                        <option value="2149">M.A. MUSIC VOCAL</option>
+                        <option value="2160">M.A. POLICE ADMINISTRATION</option>
+                        <option value="2167">M.A. POLITICAL SCIENCE</option>
+                        <option value="2154">M.A. PUBLIC ADMINISTRATION</option>
+                        <option value="2165">M.A. PUNJABI</option>
+                        <option value="2150">M.A. RELIGIOUS STUDIES</option>
+                        <option value="2155">M.A. SANSKRIT</option>
+                        <option value="2147">M.A. SOCIOLOGY</option>
+                        <option value="2158">M.A. URDU</option>
+                        <option value="2182">M.A.BUSINESS ECONOMICS &amp; I.T.</option>
+                        <option value="2206">M.Com Business Innovations</option>
+                        <option value="2066">M.Sc. Bioinformatics</option>
+                        <option value="2174">M.Sc. Biotechnology</option>
+                        <option value="2100">M.Sc. Botany</option>
+                        <option value="2104">M.Sc. Chemistry</option>
+                        <option value="2067">M.Sc. Computer Science</option>
+                        <option value="2175">M.Sc. FASHION DESIGNING AND MERCHANDISING</option>
+                        <option value="2086">M.Sc. Information Technology</option>
+                        <option value="2173">M.Sc. INTERNET STUDIES</option>
+                        <option value="2110">M.Sc. Mathematics</option>
+                        <option value="2090">M.Sc. Physics</option>
+                        <option value="2112">M.Sc. Zoology</option>
+                        <option value="2181">MASTER IN FINE ARTS (APPLIED ART)</option>
+                        <option value="2905">Master Of Arts In English</option>
+                        <option value="2901">Master Of Business Administration</option>
+                        <option value="2176">Master of Commerce</option>
+                        <option value="2902">Master Of Computer Applications</option>
+                        <option value="2177">Master of Education</option>
+                        <option value="2192">Master of Vocation (Cosmetology &amp; Wellness)</option>
+                        <option value="2204">Master of Vocation (E-Commerce)</option>
+                        <option value="2205">Master of Vocation (Mental Health Counselling)</option>
+                        <option value="2191">Master of Vocation (Theatre &amp; Television Production)</option>
+                        <option value="2190">Master of Vocation (Web Technology &amp; Multimedia)</option>
+                        <option value="2171">MASTERS IN TOURISM MANAGEMENT</option>
+                        <option value="3035">P. G. Diploma in Computer Applications</option>
+                        <option value="3047">P. G. Diploma in Computer Applications (Teacher Education)</option>
+                        <option value="3033">P. G. Diploma in Cyber Law &amp; Information Security</option>
+                        <option value="3037">P. G. Diploma in Financial Services (Banking &amp; Insurance)</option>
+                        <option value="3041">P. G. Diploma in Garment Construction &amp; Fashion Designing</option>
+                        <option value="3051">PG Certificate Course in Goods &amp; Services Tax (Six Months)</option>
+                        <option value="3905">Post Graduate Diploma in Applied Nutrition</option>
+                        <option value="3053">Post Graduate Diploma in Bioinformatics</option>
+                        <option value="3043">Post Graduate Diploma in Business Management</option>
+                        <option value="3903">Post Graduate Diploma in Business Management</option>
+                        <option value="3902">Post Graduate Diploma in Computer Applications</option>
+                        <option value="3046">Post Graduate Diploma in Cosmetology</option>
+                        <option value="3040">Post Graduate Diploma in Cosmetology &amp; Health Care</option>
+                        <option value="3904">Post Graduate Diploma in Journalism &amp; Mass Communication</option>
+                        <option value="3042">Post Graduate Diploma in Nutrition &amp; Dietetics</option>
+                        <option value="3048">Post Graduate Diploma in Web Designing</option>
+                        <option value="1132">Prak Shastri</option>
+                        <option value="2186">Sahitacharya (Masters's)</option>
+                        <option value="1133">Shastri (Bachelor's)</option>
+                        <option value="2187">Vyakaranacharya (Masters's)</option>
+
+                    </select>
+
+
+
+                    </select>
+
+                </td>
+                <td align="center" valign="top">
+                    Class Semester :
+                    <select name="DrpDwnCdetail"
+                        onchange="javascript:setTimeout('__doPostBack(\'DrpDwnCdetail\',\'\')', 0)" id="DrpDwnCdetail"
+                        style="height:25px;width:300px;">
+                        <option selected="selected" value="">- Select Semester-</option>
+                        <option value="108501">B.Com., Semester - I</option>
+                        <option selected="selected" value="108503">B.Com., Semester - III</option>
+                        <option value="108505">B.Com., Semester - V</option>
+
+                    </select>
+
+                    <br><br>
+                    Roll Number :
+                    <input name="textboxRno" type="text" maxlength="11" id="textboxRno"
+                        style="height:25px;width:150px;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="muskan.html"><input type="submit" name="buttonShowResult" value="Submit"
+                            id="buttonShowResult"></a>
+                </td>
+
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>

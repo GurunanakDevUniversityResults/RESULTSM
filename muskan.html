@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college admissions</title>
+          <link rel="icon" href="favicon.png"
+          type="image/png">
+</head>
+
+    <body>
+        <form method="post" action="./GNDUEXAMRESULTDISPLAY.aspx" id="form1">
+    <div class="aspNetHidden">
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTgwMTMzODEwOQ9kFgICAw9kFggCAQ8PFgIeBFRleHQF0gI8Y2VudGVyPjx0ciBhbGlnbj1jZW50cmU+PHRkIGNvbHNwYW49NCBhbGlnbj1jZW50ZXI+IDxoND4gRGV0YWlsIE1hcmtzIG9mIHRoZSBFeGFtaW5hdGlvbiA8YnIgLz5CLkNvbS4sIFNlbWVzdGVyIC0gSUlJIDxiciAvPmhlbGQgaW4gIERlY2VtYmVyIC0gMjAyMjwvaDQ+PC90ZD48L3RyPjwvY2VudGVyPjx0cj48dGQgY29sc3Bhbj00PjxjZW50ZXI+PGg0PiA8YSBjb2xvcj1SZWQgaHJlZj1odHRwczovL2NvbGxlZ2VhZG1pc3Npb25zLmduZHUuYWMuaW4vbG9naW5uZXcuYXNweD5DbGljayBoZXJlIHRvIGFwcGx5IGZvciBSZS1ldmFsdWF0aW9uPC9hPjwvaDQ+PC9jZW50ZXI+PC90ZD48L3RyPmRkAgMPDxYCHwAF1gM8dHI+IDx0ZCB3aWR0aD00MDAgY29sc3Bhbj0yID5Sb2xsIE5vLiA8Yj4xMDg1MjE0NTEwMTwvYj48L3RkPjx0ZD5SZWdpc3RyYXRpb24gTm8uIDxiPjIwMjAuR0tOL0EuMjg3PGJyIC8+PC9iPjwvdGQ+PC90cj48dHI+PHRkIHdpZHRoPTQwMCBjb2xzcGFuPTI+PGJyIC8+IE5hbWUgOiA8Yj5NVVNLQU5QUkVFVCAgIEtBVVI8L2I+PGJyIC8+PGJyIC8+IEZhdGhlcidzIE5hbWUgOiA8Yj5LQVNITUlSIFNJTkdIPC9iPjxiciAvPjxiciAvPk1vdGhlcidzIE5hbWUgOiA8Yj5HQUdBTkRFRVAgS0FVUjxiciAvPjxiciAvPjxiciAvPjwvYj48L3RkPjx0ZCB3aWR0aD00MDAgY29sc3Bhbj0yPiBSZXN1bHQgOiA8Yj5SKEJDRy0zMDMsQkNHLTMwNyk8L2I+PGJyIC8+PGJyIC8+IFJlc3VsdCBEYXRlIDogPGI+MjQtMy0yMDIzPC9iPjxiciAvPjxiciAvPk5vdGlmaWNhdGlvbiBObyA6IDxiPjE8YnIgLz48YnIgLz48L2I+PC90ZD48L3RyPmRkAgUPPCsAEQMADxYEHgtfIURhdGFCb3VuZGceC18hSXRlbUNvdW50AgdkARAWABYAFgAMFCsAABYCZg9kFhACAQ9kFhBmD2QWAgIBDxYCHwAFHUVOQy0yMDEgOiBFTkdMSVNIKENPTVBVTFNPUlkpZAIBD2QWAgIBDxYCHwBlZAICD2QWAgIBDxYCHwAFAjIyZAIDD2QWAgIBDxYCHwBlZAIED2QWAgIBDxYCHwBlZAIFD2QWAgIBDxYCHwAFAjIyZAIGD2QWAgIBDxYCHwAFAjE4ZAIHD2QWAgIBDxYCHwAFAjUwZAICD2QWEGYPZBYCAgEPFgIfAAUgQkNHLTMwMihQKSA6IFBVTkpBQkkoQ09NUFVMU09SWSlkAgEPZBYCAgEPFgIfAGVkAgIPZBYCAgEPFgIfAAUCMjBkAgMPZBYCAgEPFgIfAGVkAgQPZBYCAgEPFgIfAGVkAgUPZBYCAgEPFgIfAAUCMjBkAgYPZBYCAgEPFgIfAAUCMThkAgcPZBYCAgEPFgIfAAUCNTBkAgMPZBYQZg9kFgICAQ8WAh8ABR5CQ0ctMzAzIDogQ09SUE9SQVRFIEFDQ09VTlRJTkdkAgEPZBYCAgEPFgIfAGVkAgIPZBYCAgEPFgIfAAUCMTFkAgMPZBYCAgEPFgIfAGVkAgQPZBYCAgEPFgIfAGVkAgUPZBYCAgEPFgIfAAUBLWQCBg9kFgICAQ8WAh8ABQIxOGQCBw9kFgICAQ8WAh8ABQI1MGQCBA9kFhBmD2QWAgIBDxYCHwAFFkJDRy0zMDQgOiBDT01QQU5ZIExBV1NkAgEPZBYCAgEPFgIfAGVkAgIPZBYCAgEPFgIfAAUCMTlkAgMPZBYCAgEPFgIfAGVkAgQPZBYCAgEPFgIfAGVkAgUPZBYCAgEPFgIfAAUCMTlkAgYPZBYCAgEPFgIfAAUCMThkAgcPZBYCAgEPFgIfAAUCNTBkAgUPZBYQZg9kFgICAQ8WAh8ABR5CQ0ctMzA1IDogRklOQU5DSUFMIE1BTkFHRU1FTlRkAgEPZBYCAgEPFgIfAGVkAgIPZBYCAgEPFgIfAAUCMThkAgMPZBYCAgEPFgIfAGVkAgQPZBYCAgEPFgIfAGVkAgUPZBYCAgEPFgIfAAUCMThkAgYPZBYCAgEPFgIfAAUCMThkAgcPZBYCAgEPFgIfAAUCNTBkAgYPZBYQZg9kFgICAQ8WAh8ABSBCQ0ctMzA2IDogSU5URVJOQVRJT05BTCBCVVNJTkVTU2QCAQ9kFgICAQ8WAh8AZWQCAg9kFgICAQ8WAh8ABQIxOGQCAw9kFgICAQ8WAh8AZWQCBA9kFgICAQ8WAh8AZWQCBQ9kFgICAQ8WAh8ABQIxOGQCBg9kFgICAQ8WAh8ABQIxOGQCBw9kFgICAQ8WAh8ABQI1MGQCBw9kFhBmD2QWAgIBDxYCHwAFHkJDRy0zMDcgOiBCVVNJTkVTUyBFTlZJUk9OTUVOVGQCAQ9kFgICAQ8WAh8AZWQCAg9kFgICAQ8WAh8ABQIxMGQCAw9kFgICAQ8WAh8AZWQCBA9kFgICAQ8WAh8AZWQCBQ9kFgICAQ8WAh8ABQEtZAIGD2QWAgIBDxYCHwAFAjE4ZAIHD2QWAgIBDxYCHwAFAjUwZAIIDw8WAh4HVmlzaWJsZWhkZAIJDw8WAh8ABd0GPHRyPjx0ZCA+PC90ZD48L3RyPiA8dHI+PHRkID48L3RkPjwvdHI+IDx0cj48dGQgIGFsaWduPWp1c3RpZnk+IDxiciAvPjxiPjx1Pk5PVEU6PC91PjwvYj4gPGJyIC8+PGI+IERydWcgQWJ1c2UvRVZTIGFyZSBRdWFsaWZ5aW5nIFN1YmplY3QgYW5kIHdpbGwgbm90IGJlIGFkZGVkIHRvIHRvdGFsIG1hcmtzPC9iPjxiciAvPjxiciAvPlRoZSByZXN1bHQgb2YgdGhlIGNhbmRpZGF0ZSBoYXMgYmVlbiBkZWNsYXJlZCBvbiB0aGUgYmFzaXMgb2YgdGhlIHBlcmZvcm1hbmNlIG9mIEV2ZW4gYW5kIE9kZCBTZW1lc3Rlci4gPGJyIC8+KiBEZW5vdGVzIHRoZSBzdWJqZWN0IG1hcmtzIGluY2x1ZGluZyBncmFjZSBtYXJrcyA8YnIgLz4gVGhlIHJlc3VsdHMgcHVibGlzaGVkIGhlcmUgYXJlIG9ubHkgZm9yIGltbWVkaWF0ZSBpbmZvcm1hdGlvbiB0byB0aGUgZXhhbWluZWVzLyBwdWJsaWMuIFRob3VnaCBldmVyeSBjYXJlIGhhc8KgYmVlbiB0YWtlbiBpbiBwdWJsaXNoaW5nIHRoZSByZXN1bHQsIGhvd2V2ZXIgdGhlIEdORFUgd2lsbCBub3QgYmUgcmVzcG9uc2libGUgZm9yIGFueSBpbmFkdmVydGVudCBlcnJvci8gb21pc3Npb24gdGhhdCBtYXkgY3JlZXAgaW4gdGhlIHJlc3VsdHMgdGhhdCBhcmUgYmVpbmcgcHVibGlzaGVkLiA8YnIgLz4gVGhpcyBjYW5ub3QgYmUgdHJlYXRlZCBhcyBvcmlnaW5hbCBtYXJrIHNoZWV0LiBPcmlnaW5hbCBNYXJrLXNoZWV0IHdpbGwgYmUgaXNzdWVkIGJ5IHRoZSBHTkRVIHNlcGFyYXRlbHkuIENhbmRpZGF0ZXMgYXJlIGFkdmlzZWQgdG8gcmVseSBvbiB0aGUgbWFyay1zaGVldCBpc3N1ZWQgYnkgdGhlIEdORFUgZm9yIGFjY3VyYXRlIGluZm9ybWF0aW9uLjxiciAvPiA8L3RkPjwvdHI+ZGQYAQUSR3JpZFByaW50TmV0UmVzdWx0DzwrAAwBCAIBZJdj4nU4dv7ZCWNbQ/akhnmcofVpnhJGD1zJD4sgDGg1">
+    </div>
+    
+    <div class="aspNetHidden">
+    
+        <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4315FF29">
+    </div>
+            <center>
+                <span id="LblRno" style="font-weight:bold;"><center></center></span><span id="LblName" style="font-weight:bold;"></span><table border="0" width="800" align="centre" class="fixed">
+                       
+                    <tbody><tr align="centre">
+                        <td align="center" valign="top" colspan="4">
+                               <img src="https://collegeadmissions.gndu.ac.in/Images/gndu.jpg" width="750" height="100" border="1">
+                                
+                           
+                        </td>
+                    </tr>
+                    
+                                <tr align="centre"><td colspan="4" align="center"> <h4> Detail Marks of the Examination <br>B.Com., Semester - III <br>held in  December - 2022</h4></td></tr><tr><td colspan="4"><center><h4> <a color="Red" href="https://collegeadmissions.gndu.ac.in/loginnew.aspx">Click here to apply for Re-evaluation</a></h4></center></td></tr>
+                                <tr> <td width="400" colspan="2">Roll No. <b>10852145101</b></td><td>Registration No. <b>2020.GKN/A.287<br></b></td></tr><tr><td width="400" colspan="2"><br> Name : <b>MUSKANPREET   KAUR</b><br><br> Father's Name : <b>KASHMIR SINGH</b><br><br>Mother's Name : <b>GAGANDEEP KAUR<br><br><br></b></td><td width="400" colspan="2"> Result : <b>R(BCG-303,BCG-307)</b><br><br> Result Date : <b>24-3-2023</b><br><br>Notification No : <b>1<br><br></b></td></tr>
+                   </tbody></table>
+    
+                                <div>
+        <table cellspacing="0" cellpadding="4" align="Center" rules="all" border="1" id="GridPrintNetResult" style="color:#333333;font-size:11pt;width:800px;border-collapse:collapse;">
+            <tbody><tr style="color:White;background-color:#5D7B9D;font-weight:bold;">
+                <th scope="col">Subject Name</th><th scope="col">Marks Obtn. Detail (Theory Papers)</th><th scope="col"> Theory</th><th scope="col">Practical</th><th scope="col"> Internal</th><th scope="col">Marks Obtained</th><th scope="col">Min. Marks</th><th scope="col">Maximum Marks</th>
+            </tr><tr style="color:#333333;background-color:#F7F6F3;">
+                <td align="center">
+                                                ENC-201 : ENGLISH(COMPULSORY)
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                22
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                22
+                                            </td><td align="center">
+                                                18
+                                            </td><td align="center">
+                                                50
+                                            </td>
+            </tr><tr style="color:#284775;background-color:White;">
+                <td align="center">
+                                                BCG-302(P) : PUNJABI(COMPULSORY)
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                20
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                20
+                                            </td><td align="center">
+                                                18
+                                            </td><td align="center">
+                                                50
+                                            </td>
+            </tr><tr style="color:#333333;background-color:#F7F6F3;">
+                <td align="center">
+                                                BCG-303 : CORPORATE ACCOUNTING
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                11
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                -
+                                            </td><td align="center">
+                                                18
+                                            </td><td align="center">
+                                                50
+                                            </td>
+            </tr><tr style="color:#284775;background-color:White;">
+                <td align="center">
+                                                BCG-304 : COMPANY LAWS
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                19
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                19
+                                            </td><td align="center">
+                                                18
+                                            </td><td align="center">
+                                                50
+                                            </td>
+            </tr><tr style="color:#333333;background-color:#F7F6F3;">
+                <td align="center">
+                                                BCG-305 : FINANCIAL MANAGEMENT
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                18
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                18
+                                            </td><td align="center">
+                                                18
+                                            </td><td align="center">
+                                                50
+                                            </td>
+            </tr><tr style="color:#284775;background-color:White;">
+                <td align="center">
+                                                BCG-306 : INTERNATIONAL BUSINESS
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                18
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                18
+                                            </td><td align="center">
+                                                18
+                                            </td><td align="center">
+                                                50
+                                            </td>
+            </tr><tr style="color:#333333;background-color:#F7F6F3;">
+                <td align="center">
+                                                BCG-307 : BUSINESS ENVIRONMENT
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                10
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                
+                                            </td><td align="center">
+                                                -
+                                            </td><td align="center">
+                                                18
+                                            </td><td align="center">
+                                                50
+                                            </td>
+            </tr>
+        </tbody></table>
+    </div>
+                               
+                        
+                           
+                    
+                    <span id="LblFooter" style="font-weight:bold;"></span><table border="1" style="border-width:thin;border-color:lightcyan" width="800" class="fixed">
+                        
+                    </table>
+                    <span id="LblFooter1" style="font-weight:bold;"></span><table border="0" style="border-width:thin" width="800" class="fixed">
+                        <tbody><tr><td></td></tr> <tr><td></td></tr> <tr><td align="justify"> <br><b><u>NOTE:</u></b> <br><b> Drug Abuse/EVS are Qualifying Subject and will not be added to total marks</b><br><br>The result of the candidate has been declared on the basis of the performance of Even and Odd Semester. <br>* Denotes the subject marks including grace marks <br> The results published here are only for immediate information to the examinees/ public. Though every care has&nbsp;been taken in publishing the result, however the GNDU will not be responsible for any inadvertent error/ omission that may creep in the results that are being published. <br> This cannot be treated as original mark sheet. Original Mark-sheet will be issued by the GNDU separately. Candidates are advised to rely on the mark-sheet issued by the GNDU for accurate information.<br> </td></tr>
+                    </tbody></table>
+            </center>
+        </form>
+    
+    
+  
+</body>
+</html>
